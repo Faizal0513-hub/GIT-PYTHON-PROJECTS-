@@ -3,7 +3,7 @@ import pandas
 import random
 
 BACKGROUND_COLOR = "#B1DDC6"
-
+                   
 
 to_learn={}
 current_card={}
