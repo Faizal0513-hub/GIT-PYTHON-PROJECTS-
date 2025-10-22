@@ -3,7 +3,7 @@ import pandas
 from datetime import datetime
 import random
 import smtplib
-my_email = "faizamohamed0511@gmail.com"
+my_email = "faizamohamed0511@gmail.com"   
 password = "zjudhwzcgawskhxb"
 
 today=datetime.now()
