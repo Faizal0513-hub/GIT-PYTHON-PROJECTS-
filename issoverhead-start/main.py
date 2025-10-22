@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 import smtplib
-
+ 
 MY_LAT = 13.093805 # Your latitude
 MY_LONG = 80.311554# Your longitude
 
