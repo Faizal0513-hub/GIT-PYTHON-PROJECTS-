@@ -3,9 +3,9 @@ import requests
 from twilio.rest import Client
 from twilio.http.http_client import TwilioHttpClient
 
-Api_Key ="56f3f54085039108f1805b832d9b0908" # Kindly put your verified Key if you use my Api key it may not work.
+Api_Key = os.environ.get("OW_API_KEY") # Kindly put your verified Key if you use my Api key it may not work.
 account_sid="AC400f7d9583a38e759641eafd3413b724"
-auth_token="a7b0142d8b2ce3828e2872961b099f77"
+auth_token= os.environ.get("AUTH_TOKEN") # I have  used environmental variables to hide my API keys and Auth token for safety issues.
 Twilio_Api="AQ9MMLCNM2HYHHY1JLW45SCB"
 
 
@@ -40,4 +40,5 @@ if will_rain:
     to =   "whatsapp:Your Verified Number "
 
     )
+
     print(message.status)
